@@ -8,7 +8,7 @@ interface User{
 
 
 // challenge.ts
-const prettyPrintWilder = (users:User[]) => {
+const prettyPrintWilder = (users:User[]):void => {
   users.map((user:User) => {
     console.log(`${user.name} is ${user.age} years old`);
   });
