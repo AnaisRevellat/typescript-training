@@ -14,7 +14,7 @@ const prettyPrintWilder = (users:User[]) => {
   });
 };
 
-const wilders: User[] = [];
+const wilders: Array<User> = [];
 const user1 = { name: "Pierre", age: 23 };
 const user2 = { name: "Paul", birthday: "10/02/1990" };
 const user3 = { name: "Jacques", age: 25 };
